@@ -17,8 +17,6 @@ Camera = CameraService(
 
 #Camera = CameraService()
 Camera.start()
-fps = Camera.cap.get(cv2.CAP_PROP_CONVERT_RGB)
-print(fps)
 while True:
     frame = Camera.get_frame()
     cv2.imshow('test', frame)
