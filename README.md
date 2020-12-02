@@ -16,6 +16,8 @@
         sudo apt-get install gstreamer1.0-tools
 
 + ### 使用
+    支持品牌为海康卫视和大华的网络摄像头。使用时在camera_brand中输入"HIKVISION"或"DaHua"，进行品牌设置。
+
     ```python
     Camera = CameraService(
         name = "your user name",
@@ -32,3 +34,4 @@
         if key == 27:
             break
     ```
+    现在测试通过的是海康网络摄像机，大华的还没有测试过。不确定大华的rtsp格式正不正确，后续用到大华摄像机时再进行测试。
