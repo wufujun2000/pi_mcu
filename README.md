@@ -9,9 +9,12 @@
     可以默认安装，也可以自己编译。
     #### 3. gstreamer
     - 安装
-    sudo apt-get install libgstreamer1.0-dev
-    sudo apt-get install libgstreamer-plugins-bad1.0-dev
-    sudo apt-get install gstreamer1.0-tools
+        sudo apt-get install libgstreamer1.0-dev
+
+        sudo apt-get install libgstreamer-plugins-bad1.0-dev
+
+        sudo apt-get install gstreamer1.0-tools
+
 + ### 使用
     ```python
     Camera = CameraService(
